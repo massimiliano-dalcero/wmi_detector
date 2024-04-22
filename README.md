@@ -15,6 +15,9 @@ indicate if this script misses any data that python-cim can find.
 In theory, this script will detect FilterToConsumerBindings that are deleted and remain
 in unallocated WMI space, but I haven't had a chance to test yet.
 
+Based on work of David Pany: PyWMIPersistenceFinder.py 
+https://github.com/davidpany/WMI_Forensics
+
 ### Usage
 ```wmi_detector.py <OBJECTS.DATA file>```
 
