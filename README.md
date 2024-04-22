@@ -8,12 +8,8 @@ This repository contains scripts used to find evidence in WMI repositories, spec
 wmi_detector.py is designed to find WMI persistence via FitlerToConsumerBindings
 solely by keyword searching the OBJECTS.DATA file without parsing the full WMI repository.
 
-In testing, this script has found the exact same data as python-cim's
-show_FilterToConsumerBindings.py without requiring the setup. Only further testing will
-indicate if this script misses any data that python-cim can find.
-
-In theory, this script will detect FilterToConsumerBindings that are deleted and remain
-in unallocated WMI space, but I haven't had a chance to test yet.
+This script can detect FilterToConsumerBindings that are deleted and remain in unallocated WMI space. 
+I did the test in a lab environment and was able to spot the previous deleted FilterToConsumerBindings.
 
 Based on work of David Pany: PyWMIPersistenceFinder.py 
 
