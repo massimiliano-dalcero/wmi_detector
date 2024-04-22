@@ -16,6 +16,7 @@ In theory, this script will detect FilterToConsumerBindings that are deleted and
 in unallocated WMI space, but I haven't had a chance to test yet.
 
 Based on work of David Pany: PyWMIPersistenceFinder.py 
+
 https://github.com/davidpany/WMI_Forensics
 
 ### Usage
